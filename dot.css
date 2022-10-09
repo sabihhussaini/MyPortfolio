@@ -1,0 +1,260 @@
+
+
+ /*myself SABIH*/
+
+
+ * {box-sizing: border-box}
+
+ /* Container needed to position the overlay. Adjust the width as needed */
+ .container {
+   position: relative;
+   width: 50%;
+   max-width: 300px;
+ }
+ 
+ /* Make the image to responsive */
+ .image {
+   display: block;
+   width: 100%;
+   height: auto;
+ }
+ 
+ .none{
+   color: white;
+   font-size: 50px;
+   font-weight: 1000;
+ }
+p.notnone{
+    font-size: 50px;
+}
+ 
+ /* The overlay effect - lays on top of the container and over the image */
+ .overlay {
+   position: absolute;
+   bottom: 0;
+   background: rgb(0, 0, 0);
+   background: rgba(0, 0, 0, 0.5); /* Black see-through */
+   color: #f1f1f1;
+   width: 100%;
+   transition: .5s ease;
+   opacity:0;
+   color: white;
+   font-size: 20px;
+   padding: 20px;
+   text-align: center;
+ }
+ 
+ /* When you mouse over the container, fade in the overlay title */
+ .container:hover .overlay {
+   opacity: 1;
+ }
+ 
+ /*own from here*/
+ 
+ div.mypic{
+   background-color:cornsilk;
+ }
+ h1.yaba{
+     text-align: center;
+     background-color: pink;
+     font-size: 70px;
+ }
+ 
+ div.container{
+     background-color: pink;
+ }
+ h5.notpara{
+     background-color: pink;
+ }
+ 
+ 
+ 
+ /*project org and all*/
+ .main {
+   max-width: 1000px;
+   margin: auto;
+ }
+ 
+ h1 {
+   font-size: 50px;
+   word-break: break-all;
+ }
+ 
+ .row {
+   margin: 8px -16px;
+ }
+ 
+ /* Add padding BETWEEN each column (if you want) */
+ .row,
+ .row > .column {
+   padding: 8px;
+ }
+ 
+ /* Create four equal columns that floats next to each other */
+ .column {
+   float: left;
+   width: 25%;
+ }
+ 
+ /* Clear floats after rows */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+ 
+ /* Content */
+ .content {
+   background-color: white;
+   padding: 10px;
+ }
+ 
+ /* Responsive layout - makes a two column-layout instead of four columns */
+ @media screen and (max-width: 900px) {
+   .column {
+     width: 50%;
+   }
+ }
+ 
+ /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+   .column {
+     width: 100%;
+   }
+ }
+ 
+ div.row :hover{
+   background-color: pink;
+ }   
+ 
+ h1.professionalinfo{
+   text-align: center;
+   background-color: cadetblue;
+ }
+ 
+ 
+ /*about me*/
+ section.anyclass div.class5 div.content1{
+   font-size: 25px;
+   color: aqua;
+   height: 400px;
+   padding-top: 20px;
+ }
+ section.anyclass div.class5 div.image1{
+   /*padding-left: 300px;*/
+   
+   
+   height: 400px;
+   padding: 50px;
+   padding-left: 50px;
+   padding-top: 70px;
+   image-resolution: 437*399;
+ }
+ section.anyclass div.class5 div.image1,div.content1{
+   width: 50%;
+   background-color: black;
+   float: left;
+ }
+ section.anyclass div.class5 div.content1:hover{
+   color: aqua;
+   background-color: black;
+ }
+ 
+ 
+ 
+ h1.contactme{
+   font-size: 70px;
+   text-align: center;
+   background-color: grey;
+   color: beige;
+   
+ }
+ h1.contactme:hover{
+   background-color: rgb(83, 83, 165);
+ }
+ 
+ p a.gmail{
+   text-align: center;
+ }
+ 
+ /*thank u visit again*/
+ marquee.maziqueen{
+   text-decoration: cadetblue;
+   color: chartreuse;
+   font-weight: 1000;
+   font-style: oblique;
+   background-color: whitesmoke;
+   text-decoration: none;
+   font-size: 50px;
+ }
+ marquee.maziqueen:hover{
+   background-color: yellowgreen;
+ }
+ 
+ 
+ 
+ 
+ /*new one pic gallery*/
+ * {
+   box-sizing: border-box;
+ }
+ 
+ body {
+   background-color: #f1f1f1;
+   padding: 20px;
+   font-family: Arial;
+ }
+ 
+ /* Center website */
+ .main {
+   max-width: 1000px;
+   margin: auto;
+ }
+ 
+ h1 {
+   font-size: 50px;
+   word-break: break-all;
+ }
+ 
+ .row {
+   margin: 8px -16px;
+ }
+ 
+ /* Add padding BETWEEN each column (if you want) */
+ .row,
+ .row > .column {
+   padding: 8px;
+ }
+ 
+ /* Create four equal columns that floats next to each other */
+ .column {
+   float: left;
+   width: 25%;
+ }
+ 
+ /* Clear floats after rows */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+ 
+ /* Content */
+ .content {
+   background-color: white;
+   padding: 10px;
+ }
+ 
+ /* Responsive layout - makes a two column-layout instead of four columns */
+ @media screen and (max-width: 900px) {
+   .column {
+     width: 50%;
+   }
+ }
+ 
+ /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+   .column {
+     width: 100%;
+   }
+ }
